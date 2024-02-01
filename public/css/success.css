@@ -1,0 +1,51 @@
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: "roboto";
+
+}
+
+.success
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.subscribed
+{
+    background-color: #f2f2f2;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+ h1, p 
+{
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+}
+
+form 
+{
+    text-align: center;
+    align-content: center;
+}
+
+form button 
+{
+    border: none;
+    background-color: rgb(2, 155, 2);
+    color: white;
+    box-shadow:2px 4px 10px 4px  rgb(142, 142, 142);
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
